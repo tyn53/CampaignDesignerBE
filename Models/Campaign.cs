@@ -1,4 +1,6 @@
-using Microsoft.EntityFrameworkCore;
+using System;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace CampaignDesignerBE.Models
 {
@@ -6,5 +8,7 @@ namespace CampaignDesignerBE.Models
   {
     public int CampaignID { get; set; }
     public string CampaignName { get; set; }
+
+    public IEnumerable<PlotPoint> {get;set;}
   }
 }
