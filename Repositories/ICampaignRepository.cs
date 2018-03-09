@@ -8,6 +8,7 @@ namespace CampaignDesignerBE.Repositories
   public interface ICampaignRepository
   {
     IEnumerable<Campaign> ListAll();
-    void Add(Campaign campaign);
+    Campaign GetById(int campaignId);
+    bool Add(Campaign campaign);
   }
 }
