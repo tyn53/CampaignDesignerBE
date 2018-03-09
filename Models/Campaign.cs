@@ -6,9 +6,13 @@ namespace CampaignDesignerBE.Models
 {
   public class Campaign
   {
-    public int CampaignID { get; set; }
+
+    public int? CampaignID { get; set; }
     public string CampaignName { get; set; }
 
-    public IEnumerable<PlotPoint> {get;set;}
+    public Campaign()
+    {
+
+    }
   }
 }
