@@ -9,6 +9,5 @@ namespace CampaignDesignerBE.Models
     public int CampaignID { get; set; }
     public string CampaignName { get; set; }
 
-    public IEnumerable<PlotPoint> {get;set;}
   }
 }

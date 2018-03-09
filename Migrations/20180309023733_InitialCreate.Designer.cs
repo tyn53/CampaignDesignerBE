@@ -12,9 +12,10 @@ using System;
 namespace campaignDesignerBE.Migrations
 {
     [DbContext(typeof(CampaignDesignerContext))]
-    partial class CampaignDesignerContextModelSnapshot : ModelSnapshot
+    [Migration("20180309023733_InitialCreate")]
+    partial class InitialCreate
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
